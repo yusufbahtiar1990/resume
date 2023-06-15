@@ -1,0 +1,173 @@
+@media(max-width:670px) {
+    header {
+        width: 100%;
+        height: 666px;
+    }
+
+    .header-list {
+        height: 50px;
+        float: none;
+        padding-top: 10px;
+        display: none;
+    }
+    .menu-icon {
+        display:block;
+        color: #21243D;
+        margin-right: 20px;
+      }    
+    header img {
+        position: absolute;
+        width: 170.86px;
+        height: 170.86px;
+        left: 120px;
+        top: 90px;
+    }
+
+    header img:hover {
+        width: 170.86px;
+        height: 170.86px;
+    }
+
+    header h1 {
+        position: absolute;
+        width: 90%;
+        height: 120px;
+        left: 25px;
+        top: 297px;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+
+        text-align: center;
+    }
+    header p {
+        position: absolute;
+        width: 90%;
+        height: 96px;
+        left: 24px;
+        top: 438px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .btn {
+        position: absolute;
+        left: 100px;
+        top: 570px;
+    }
+    .container1 {
+        width: 100%;
+        height: 647px;
+    }
+    .container1 h2 {
+        position: absolute;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 60px;
+    }
+    
+    .flex-list {
+        padding: 69px 10px 32px 17px;
+        flex-wrap:wrap;
+        flex-direction:column;
+    }
+    .li1,.li2{
+        width: 90%;
+        height: 266px;
+        margin: 0 auto 8.5px;
+    }
+    .kalimat1 {
+        width: 90%;
+        height: 60px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .kalimat2 {
+        width: 100%;
+        height: 34px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .kalimat3 {
+        width: 90%;
+        height: 117px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .container2 {
+        width: 100%;
+        height: 602px;
+    }
+    .container2 h2 {
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        left: 126px;
+        top: 1350px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .flex-list1 {
+        padding-left: 18px;
+        width: 100%;
+        flex-wrap:wrap;
+        flex-direction:column;
+    }
+    .flex-list1 p {
+        padding-right: 18px;
+    }
+    .li3,.li4 {
+        width: 100%;
+        margin: 18px auto;
+    }
+    .li3 img {
+        width: 150%;
+        height: 230px;
+    }
+    .li4 h4 {
+        width: 327px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .li4a {
+        font-weight: 900;
+        font-size: 16px;
+    }
+    .li4b {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .li4 p {
+        width: 314px;
+        height: 96px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .flex-list2 {
+        padding-left: 18px;
+        width: 100%;
+        flex-wrap:wrap;
+        flex-direction:column;
+    }
+    footer {
+        width: 100%;
+        height: 182px;
+        padding-top: 1200px;
+    }
+}

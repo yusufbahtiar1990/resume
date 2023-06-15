@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 595px;
+}
+
+.header-list {
+    float: right;
+    margin: 27px 60px 0px 0px;
+}
+
+.header-list li {
+    float: left;
+    margin-left: 33px;
+}
+
+.header-list a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.header-list a:hover {
+    opacity: 1;
+    font-size: 22px;
+}
+
+header i {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+  }
+
+header h1 {
+    position: absolute;
+    width: 470px;
+    height: 105px;
+    left: 148px;
+    top: 228px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+header p {
+    position: absolute;
+    width: 497px;
+    height: 66px;
+    left: 148px;
+    top: 373px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.btn {
+    position: absolute;
+    left: 168px;
+    top: 486px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF6464;
+    padding: 20px;
+    border-radius: 2px;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+header img {
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    left: 760px;
+    top: 210px;
+}
+
+header img:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.container1 {
+    width: 100%;
+    height: 396px;
+    background-color: #EDF7FA;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.container1 h2 {
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    left: 148px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+    margin-top: 7px;
+}
+
+.li1, .li2 {
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.flex-list {
+    padding: 69px 148px 32px;
+    display: flex;
+}
+
+.flex-list li {
+    flex: auto;
+}
+
+.li1 {
+    margin-right: 20px ;
+}
+
+.kalimat1 {
+    width: 374px;
+    height: 85px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin: 24px 21px 17px 23px;
+}
+.kalimat2 {
+    width: 374px;
+    height: 34px;
+    margin: 0px 21px 11px 23px;
+}
+.kalimat3 {
+    width: 368px;
+    height: 117px;
+    margin: 0px 27px 7px 23px;
+}
+
+.container2 {
+    width: 100%;
+    height: 868px;
+}
+
+.container2 h2 {
+    position: absolute;
+    width: 152px;
+    height: 60px;
+    left: 148px;
+    margin-top: 7px;
+}
+
+.flex-list1 {
+    padding: 86px 148px 15px;
+    display: flex;
+}
+
+.flex-list2 {
+    padding: 31px 148px 15px;
+    display: flex;
+}
+
+.li3 {
+    margin-right: 18px;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #21243D;
+    padding-bottom: 25px;
+}
+
+.flex-list1a {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.li4a {
+    margin-right: 26px;
+    background-color: #142850;
+    padding: 2px 20px;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.li4b {
+    padding: 2px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.li4b:hover {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.li4 p {
+    width: 550px;
+    height: 93px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer {
+    width: 100%;
+    height: 182px;
+}
+
+.footer-top {
+    text-align: center;
+    padding: 51px 0px 26px;
+}
+
+.footer-top img {
+    padding: 0px 20px;
+    opacity: 0.7;
+}
+.footer-top img:hover {
+    opacity: 1;
+    width: 6.5%;
+}
+.footer-bottom {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+}
