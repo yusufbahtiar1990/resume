@@ -41,6 +41,7 @@ header{
 .header-list a:hover {
     opacity: 1;
     font-size: 22px;
+    transition: all 0.5s ease;
 }
 
 header i {
@@ -63,6 +64,11 @@ header h1 {
     color: #21243D;
 }
 
+header h1:hover {
+    font-size: 45px;
+    transition: all 0.5s ease;
+}
+
 header p {
     position: absolute;
     width: 497px;
@@ -74,6 +80,11 @@ header p {
     font-size: 16px;
     line-height: 24px;
     color: #21243D;
+}
+
+header p:hover {
+    font-size: 16.2px;
+    transition: all 0.5s ease;
 }
 
 .btn {
@@ -103,8 +114,9 @@ header img {
 }
 
 header img:hover {
-    width: 250px;
-    height: 250px;
+    filter: grayscale(1);
+    transform: scale(1.5) rotate(45deg);
+    transition: all 1s ease;
 }
 
 .container1 {
@@ -129,6 +141,19 @@ h2 {
     align-items: flex-end;
     color: #21243D;
     margin-top: 7px;
+}
+
+.view {
+    position: absolute;
+    width: 208px;
+    height: 20px;
+    left: 990px;
+    top: 622px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
 }
 
 .li1, .li2 {
@@ -233,7 +258,7 @@ h4 {
 
 .li4b:hover {
     font-size: 24px;
-    cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .li4 p {
@@ -257,11 +282,10 @@ footer {
 
 .footer-top img {
     padding: 0px 20px;
-    opacity: 0.7;
 }
 .footer-top img:hover {
-    opacity: 1;
-    width: 6.5%;
+    transform: scale(1.5) rotate(45deg);
+    transition: all 1s ease;
 }
 .footer-bottom {
     text-align: center;
