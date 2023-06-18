@@ -65,6 +65,14 @@
         width: 100%;
         height: 647px;
     }
+    .view {
+        position: absolute;
+        width: 105px;
+        height: 60px;
+        left: 124px;
+        top: 667px;
+        display: none;
+    }
     .container1 h2 {
         position: absolute;
         font-style: normal;
