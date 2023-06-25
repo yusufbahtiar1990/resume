@@ -2,7 +2,17 @@
     body {
         width: 375px;
     }
-
+    .header-list {
+        height: 50px;
+        float: none;
+        padding-top: 10px;
+        display: none;
+    }
+    .menu-icon {
+        display:block;
+        color: #21243D;
+        margin-right: 20px;
+    }    
     main {
         padding: 0px 18px;
     }
