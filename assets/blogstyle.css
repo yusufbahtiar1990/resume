@@ -27,6 +27,12 @@ header {
     margin-right: 200px;
 }
 
+.header-list a:hover {
+    opacity: 1;
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+
 .header-list li {
     float: left;
     padding-top: 27px;
@@ -87,6 +93,10 @@ footer {
 
 .footer-top img {
     padding: 0px 17.5px;
+}
+.footer-top img:hover {
+    transform: scale(1.5) rotate(45deg);
+    transition: all 1s ease;
 }
 .footer-bottom {
     padding-top: 26px;
