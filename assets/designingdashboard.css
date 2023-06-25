@@ -31,8 +31,14 @@ header {
 .header-list li span {
     color: var(--primary, #FF6464);
 }
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+}
 main {
-    margin: 0px 236px 0px 235px ;
+    margin: 0px 0px 0px 235px ;
 }
 main h1 {
     width: 506px;
@@ -79,6 +85,10 @@ footer {
 
 .footer-top img {
     padding: 0px 17.5px;
+}
+.footer-top img:hover {
+    transform: scale(1.5) rotate(45deg);
+    transition: all 1s ease;
 }
 .footer-bottom {
     padding-top: 26px;
